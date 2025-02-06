@@ -1,0 +1,65 @@
+:root {
+    --white: #fff;
+    --slate300: #d6e2f0;
+    --slate500: #68778d;
+    --slate900: #1f3251;
+}
+
+* {
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+/* Solucion */
+.container {
+    align-items: center;
+    background-color: var(--slate300);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+.qr-card {
+    background-color: var(--white);
+    border-radius: 20px;
+    height: 499px;
+    padding: 16px 16px 40px 16px;
+    text-align: center;
+    width: 320px;
+}
+
+.qr-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.qr-text {
+    padding: 16px;
+}
